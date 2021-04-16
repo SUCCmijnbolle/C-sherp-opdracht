@@ -58,6 +58,7 @@ namespace side_scrolling_game
             this.button1.TabIndex = 0;
             this.button1.Text = "get that big W";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -168,11 +169,11 @@ namespace side_scrolling_game
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(390, 155);
+            this.label8.Location = new System.Drawing.Point(390, 160);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(398, 25);
+            this.label8.Size = new System.Drawing.Size(403, 25);
             this.label8.TabIndex = 10;
-            this.label8.Text = "arrow keys: left and right= walking left or rght";
+            this.label8.Text = "arrow keys: left and right= walking left or right";
             // 
             // titelscreen
             // 

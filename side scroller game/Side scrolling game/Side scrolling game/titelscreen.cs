@@ -14,5 +14,13 @@ namespace side_scrolling_game
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            level1 l1 = new level1();
+            l1.ShowDialog();
+            Application.Exit();
+        }
     }
 }
